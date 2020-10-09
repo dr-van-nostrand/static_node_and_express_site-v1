@@ -4,6 +4,9 @@ const express = require('express');
 //PASO 2.1
 const app = express();
 
+//PASO 13 (instalar static assets)
+app.use('/static', express.static('public'));
+
 //PASO 4.1 (instalar template pug)
 app.set('view engine', 'pug');
 
