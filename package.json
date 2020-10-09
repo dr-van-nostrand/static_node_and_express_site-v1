@@ -1,0 +1,29 @@
+{
+  "name": "express-site",
+  "version": "0.0.1",
+  "description": "A portfolio site to showcase the great projects i've built. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dr-van-nostrand/techdegree-project-6.git"
+  },
+  "keywords": [
+    "HTML",
+    "PUG",
+    "CSS",
+    "JS"
+  ],
+  "author": "Zubeldia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dr-van-nostrand/techdegree-project-6/issues"
+  },
+  "homepage": "https://github.com/dr-van-nostrand/techdegree-project-6#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
