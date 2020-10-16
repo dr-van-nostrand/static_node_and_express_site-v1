@@ -5,21 +5,21 @@ const express = require('express');
 const app = express();
 
 
-app.get('/', (req, res) =>{
-    res.render('index')
-});
+// app.get('/', (req, res) =>{
+//     res.render('index')
+// });
 
-app.get('/about', (req, res) =>{
-    res.render('about')
-});
+// app.get('/about', (req, res) =>{
+//     res.render('about')
+// });
 
-app.get('/layout', (req, res) =>{
-    res.render('layout')
-});
+// app.get('/layout', (req, res) =>{
+//     res.render('layout')
+// });
 
-app.get('/project', (req, res) =>{
-    res.render('project')
-});
+// app.get('/project', (req, res) =>{
+//     res.render('project')
+// });
 
 //PASO 13 (instalar static assets)
 app.use('/static', express.static('public'));
@@ -27,6 +27,9 @@ app.use('/static', express.static('public'));
 //PASO 4.1 (instalar template pug)
 const routes = require('./routes');
 app.set('view engine', 'pug');
+
+var indexRouter = require('./routes/index');
+app.use('/', indexRouter);
 
 //PASO 9.2 LINKEAR ROUTER
 app.use('/', routes);
