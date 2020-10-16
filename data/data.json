@@ -7,7 +7,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Random-Quotes/",
         "github_link": "https://github.com/dr-van-nostrand/A-Random-Quote-Generator-1",
-        "image_urls": ["/images/proj-1.jpg","/images/proj-1_L.jpg", "/images/proj-1_L_2.jpg"]
+        "image_url": ["/img/proj-1.jpg","/img/proj-1_L.jpg", "/img/proj-1_L_2.jpg"]
       },
       {
         "id": 2,
@@ -16,7 +16,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Data-Pagination-and-Filtering-2/",
         "github_link": "https://github.com/dr-van-nostrand/Data-Pagination-and-Filtering-2",
-        "image_urls": ["/images/proj-2.jpg","/images/proj-2_L.jpg", "/images/proj-2_L_2.jpg"]
+        "image_url": ["/img/proj-2.jpg","/img/proj-2_L.jpg", "/img/proj-2_L_2.jpg"]
       },
       {
         "id": 3,
@@ -25,7 +25,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Interactive-Form-3/",
         "github_link": "https://github.com/dr-van-nostrand/Interactive-Form-3",
-        "image_urls": ["/images/proj-3.jpg","/images/proj-3_L.jpg", "/images/proj-1_L_3.jpg"]
+        "image_url": ["/img/proj-3.jpg","/img/proj-3_L.jpg", "/img/proj-1_L_3.jpg"]
       },
       {
         "id": 4,
@@ -34,7 +34,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/OOP-Game-Show-App-4/",
         "github_link": "https://github.com/dr-van-nostrand/OOP-Game-Show-App-4",
-        "image_urls": ["/images/proj-4.jpg","/images/proj-4_L.jpg", "/images/proj-4_L_2.jpg"]
+        "image_url": ["/img/proj-4.jpg","/img/proj-4_L.jpg", "/img/proj-4_L_2.jpg"]
       },
       {
         "id": 5,
@@ -43,7 +43,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Public-API-Requests-5/",
         "github_link": "https://github.com/dr-van-nostrand/Public-API-Requests-5",
-        "image_urls": ["/images/proj-5.jpg","/images/proj-5_L.jpg", "/images/proj-5_L_2.jpg"]
+        "image_url": ["/img/proj-5.jpg","/img/proj-5_L.jpg", "/img/proj-5_L_2.jpg"]
       }
     ]
   }
