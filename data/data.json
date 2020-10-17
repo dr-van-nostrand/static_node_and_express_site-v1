@@ -6,7 +6,7 @@
         "description": "A program that displays a randomly selected quote each time the user clicks a button.",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Random-Quotes/",
-        "github_link": "https://github.com/dr-van-nostrand/A-Random-Quote-Generator-1",
+        "github_link": "https://github.com/dr-van-nostrand/Random-Quotes/tree/master",
         "image_url": ["/static/img/proj-1.jpg","/static/img/proj-1_L.jpg", "/static/img/proj-1_L_2.jpg"]
       },
       {
