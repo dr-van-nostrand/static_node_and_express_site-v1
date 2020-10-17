@@ -15,13 +15,10 @@ router.get('/projects/:id', function(req, res, next) {
     const project = projects.find( ({ id }) => id === +projectId );
     if (project) {
       // 2. Pass the project data to the 'project' template
-      const thumbs = project.image_urls[1];
-      return res.render('project', { project, thumbs });
+      res.render('project', { project});
     } else {
-      const err = new Error();
-      err.status = 404;
-      console.log(`ERROR: ${err.status}. Project '${projectId}' doesn't exist! Not yet, anyway...`);
-      res.render('error', {message: `${err.status}. Project '${projectId}' doesn't exist! Not yet, anyway...`});    }
+      res.sendStatus(404);
+    }
   });
   
   module.exports = router;

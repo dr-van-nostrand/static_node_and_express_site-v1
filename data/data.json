@@ -6,8 +6,8 @@
         "description": "A program that displays a randomly selected quote each time the user clicks a button.",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Random-Quotes/",
-        "github_link": "https://github.com/dr-van-nostrand/A-Random-Quote-Generator-1",
-        "image_url": ["/img/proj-1.jpg","/img/proj-1_L.jpg", "/img/proj-1_L_2.jpg"]
+        "github_link": "https://github.com/dr-van-nostrand/Random-Quotes/tree/master",
+        "image_url": ["/static/img/proj-1.jpg","/static/img/proj-1_L.jpg", "/static/img/proj-1_L_2.jpg"]
       },
       {
         "id": 2,
@@ -16,7 +16,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Data-Pagination-and-Filtering-2/",
         "github_link": "https://github.com/dr-van-nostrand/Data-Pagination-and-Filtering-2",
-        "image_url": ["/img/proj-2.jpg","/img/proj-2_L.jpg", "/img/proj-2_L_2.jpg"]
+        "image_url": ["/static/img/proj-2.jpg","/static/img/proj-2_L.jpg", "/static/img/proj-2_L_2.jpg"]
       },
       {
         "id": 3,
@@ -25,7 +25,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Interactive-Form-3/",
         "github_link": "https://github.com/dr-van-nostrand/Interactive-Form-3",
-        "image_url": ["/img/proj-3.jpg","/img/proj-3_L.jpg", "/img/proj-1_L_3.jpg"]
+        "image_url": ["/static/img/proj-3.jpg","/static/img/proj-3_L.jpg", "/static/img/proj-3_L_2.jpg"]
       },
       {
         "id": 4,
@@ -34,7 +34,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/OOP-Game-Show-App-4/",
         "github_link": "https://github.com/dr-van-nostrand/OOP-Game-Show-App-4",
-        "image_url": ["/img/proj-4.jpg","/img/proj-4_L.jpg", "/img/proj-4_L_2.jpg"]
+        "image_url": ["/static/img/proj-4.jpg","/static/img/proj-4_L.jpg", "/static/img/proj-4_L_2.jpg"]
       },
       {
         "id": 5,
@@ -43,7 +43,16 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Public-API-Requests-5/",
         "github_link": "https://github.com/dr-van-nostrand/Public-API-Requests-5",
-        "image_url": ["/img/proj-5.jpg","/img/proj-5_L.jpg", "/img/proj-5_L_2.jpg"]
+        "image_url": ["/static/img/proj-5.jpg","/static/img/proj-5_L.jpg", "/static/img/proj-5_L_2.jpg"]
+      },
+      {
+        "id": 6,
+        "project_name": "Node Express site",
+        "description": "Static Node.js and Express Site - Project Six for the Full Stack Developer TreeHouse Techdegree",
+        "technologies": ["JavaScript", "HTML", "CSS", "PUG"],
+        "live_link": "#",
+        "github_link": "https://github.com/dr-van-nostrand/static_node_and_express_site-v1",
+        "image_url": ["/static/img/proj-6.jpg","/static/img/proj-6_L.jpg", "/static/img/proj-6_L_2.jpg"]
       }
     ]
   }
