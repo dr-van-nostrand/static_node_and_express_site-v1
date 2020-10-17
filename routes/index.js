@@ -3,10 +3,16 @@ const express = require('express');
 const router = express.Router();
 const { projects } = require('../data/data.json');
 
+
 // GET HOME PAGE
 router.get('/', function(req, res, next) {
     // Pass all the data to 'index' template
     res.render('index', { projects });
+});
+
+//CREATE ABOUT
+router.get('/about', (req, res) => {
+  res.render('about')
 });
 
 /* GET WORK page. */
@@ -22,30 +28,3 @@ router.get('/projects/:id', function(req, res, next) {
   });
   
   module.exports = router;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-module.exports = router;
