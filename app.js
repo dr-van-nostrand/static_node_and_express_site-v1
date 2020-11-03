@@ -50,7 +50,7 @@ app.use((err, req, res, next) => {
   
 
 //PASO 2.2
-app.listen(process.env.PORT || 3000, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+app.listen(4000, () => {
+    console.log('La aplicacion esta corriendo en un localhost:4000!')
 });
 
