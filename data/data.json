@@ -8,7 +8,7 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Random-Quotes/",
         "github_link": "https://github.com/dr-van-nostrand/Random-Quotes/tree/master",
-        "image_url": ["/static/img/proj-1.jpg","/static/img/proj-1_L.jpg", "/static/img/proj-1_L_2.jpg"]
+        "image_url": ["/static/img/proj-1.jpg","/static/img/proj-1_L.jpg", "/static/img/proj-1_L_2.jpg","/static/img/proj-1_L_3.jpg"]
       },
       {
         "id": 2,
@@ -18,27 +18,27 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Data-Pagination-and-Filtering-2/",
         "github_link": "https://github.com/dr-van-nostrand/Data-Pagination-and-Filtering-2",
-        "image_url": ["/static/img/proj-2.jpg","/static/img/proj-2_L.jpg", "/static/img/proj-2_L_2.jpg"]
+        "image_url": ["/static/img/proj-2.jpg","/static/img/proj-2_L.jpg", "/static/img/proj-2_L_2.jpg","/static/img/proj-2_L_3.jpg"]
       },
       {
         "id": 3,
         "project_author":"dr-van-nostrand",
         "project_name": "Interactive Form",
-        "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, you’ll use your skills to enhance a form so that it’s engaging, interactive, and easy to use.",
+        "description": "A form to collect information from users, that it’s engaging, interactive, and easy to use.",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Interactive-Form-3/",
         "github_link": "https://github.com/dr-van-nostrand/Interactive-Form-3",
-        "image_url": ["/static/img/proj-3.jpg","/static/img/proj-3_L.jpg", "/static/img/proj-3_L_2.jpg"]
+        "image_url": ["/static/img/proj-3.jpg","/static/img/proj-3_L.jpg", "/static/img/proj-3_L_2.jpg","/static/img/proj-3_L_3.jpg"]
       },
       {
         "id": 4,
         "project_author":"dr-van-nostrand",
         "project_name": "OOP Game Show App",
-        "description": "Create a browser-based, word guessing game: Phrase Hunter. You’ll use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
+        "description": "Created a browser-based, word guessing game: Phrase Hunter. You’ll use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/OOP-Game-Show-App-4/",
         "github_link": "https://github.com/dr-van-nostrand/OOP-Game-Show-App-4",
-        "image_url": ["/static/img/proj-4.jpg","/static/img/proj-4_L.jpg", "/static/img/proj-4_L_2.jpg"]
+        "image_url": ["/static/img/proj-4.jpg","/static/img/proj-4_L.jpg", "/static/img/proj-4_L_2.jpg", "/static/img/proj-4_L_3.jpg"]
       },
       {
         "id": 5,
@@ -48,16 +48,16 @@
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://dr-van-nostrand.github.io/Public-API-Requests-5/",
         "github_link": "https://github.com/dr-van-nostrand/Public-API-Requests-5",
-        "image_url": ["/static/img/proj-5.jpg","/static/img/proj-5_L.jpg", "/static/img/proj-5_L_2.jpg"]
+        "image_url": ["/static/img/proj-5.jpg","/static/img/proj-5_L.jpg", "/static/img/proj-5_L_2.jpg","/static/img/proj-5_L_3.jpg"]
       },
       {
         "id": 6,
         "project_name": "Node Express site",
-        "description": "Static Node.js and Express Site - Project Six for the Full Stack Developer TreeHouse Techdegree",
+        "description": "Static Node.js and Express Site ",
         "technologies": ["JavaScript", "HTML", "CSS", "PUG"],
         "live_link": "https://dr-van-nostrand.github.io/static_node_and_express_site-v1/",
         "github_link": "https://github.com/dr-van-nostrand/static_node_and_express_site-v1",
-        "image_url": ["/static/img/proj-6.jpg","/static/img/proj-6_L.jpg", "/static/img/proj-6_L_2.jpg"]
+        "image_url": ["/static/img/proj-6.jpg","/static/img/proj-6_L.jpg", "/static/img/proj-6_L_2.jpg","/static/img/proj-6_L_3.jpg"]
       }
     ]
   }

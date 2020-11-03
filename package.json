@@ -4,7 +4,9 @@
   "description": "A portfolio site to showcase the great projects i've built. ",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "deploy": "gh-pages -d routes"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }

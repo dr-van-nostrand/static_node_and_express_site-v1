@@ -17,33 +17,40 @@ app.use(routes);
 //PASO 9.2 LINKEAR ROUTER
 app.use('/', routes);
 app.use((req, res, next) => {
-    console.log('world');
     next();
 });
 
-// 3 ERROR messages
+/* ERROR HANDLERS */
+/* 404 handler to catch undefined or non-existent route requests */ 
 app.use((req, res, next) => {
-    const err = new Error('Ooops');
-    err.status = 500;
-    next(err);
-});
+  console.log('404 error handler called');
 
- 
-// PASO 3.1 CUSTOMIZANDO EL ERROR
-app.use((req, res, next) => {
-    const err = new Error('Not Found');
-    err.status = 404;
-    next(err);
+  /* TODO 1: Send a response to the client
+    - Set the response status to 404
+    - Render the 'not-found' view
+  */ 
+ res.status(404).render('not-found');
 
 });
 
+/* Global error handler */
 app.use((err, req, res, next) => {
-    res.locals.error = err;
-    res.status(err.status);
-    res.render('error');
+
+  if (err) {
+    console.log('Global error handler called', err);
+  }
+
+  if (err.status === 404) {
+    res.status(404).render('not-found', { err });
+  } else {
+    err.message = err.message || `Oops!  It looks like something went wrong on the server.`;
+    res.status(err.status || 500).render('error', { err });
+  }
 });
+  
 
 //PASO 2.2
-app.listen(3000, () => {
-    console.log('La aplicacion esta corriendo en un localhost:3000!')
+app.listen(4000, () => {
+    console.log('La aplicacion esta corriendo en un localhost:4000!')
 });
+
