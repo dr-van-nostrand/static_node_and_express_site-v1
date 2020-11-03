@@ -55,7 +55,7 @@
         "project_name": "Node Express site",
         "description": "Static Node.js and Express Site ",
         "technologies": ["JavaScript", "HTML", "CSS", "PUG"],
-        "live_link": "https://dr-van-nostrand.github.io/static_node_and_express_site-v1/",
+        "live_link": "https://staticnodeandexpress.herokuapp.com",
         "github_link": "https://github.com/dr-van-nostrand/static_node_and_express_site-v1",
         "image_url": ["/static/img/proj-6.jpg","/static/img/proj-6_L.jpg", "/static/img/proj-6_L_2.jpg","/static/img/proj-6_L_3.jpg"]
       }
