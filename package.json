@@ -2,7 +2,7 @@
   "name": "express-site",
   "version": "0.0.1",
   "engines": {
-    "node": "6.11.1"
+    "node": "14.10.0"
   },
   "description": "A portfolio site to showcase the great projects i've built. ",
   "main": "app.js",
