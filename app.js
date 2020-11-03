@@ -50,16 +50,16 @@ app.use((err, req, res, next) => {
   
 
 //PASO 2.2
-app.listen(4000, () => {
-    console.log('La aplicacion esta corriendo en un localhost:4000!')
-});
+// app.listen(4000, () => {
+//     console.log('La aplicacion esta corriendo en un localhost:4000!')
+// });
 
-// const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8080
 
-// app.get('/', (req,res) => {
-//   res.sendFile(__dirname + '/index.js')
-// })
+app.get('/', (req,res) => {
+  res.sendFile(__dirname + '/index.js')
+})
 
-// app.listen(PORT,() => {
-//   console.log(`App is started on port ${PORT}`)
-// })
+app.listen(PORT,() => {
+  console.log(`App is started on port ${PORT}`)
+})
