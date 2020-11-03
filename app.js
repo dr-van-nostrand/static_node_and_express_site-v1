@@ -54,7 +54,7 @@ app.use((err, req, res, next) => {
 //     console.log('La aplicacion esta corriendo en un localhost:4000!')
 // });
 
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 5000
 
 app.get('/', (req,res) => {
   res.sendFile(__dirname + '/index.js')
