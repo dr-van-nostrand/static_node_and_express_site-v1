@@ -2,13 +2,13 @@
   "name": "express-site",
   "version": "0.0.1",
   "engines": {
-    "node": "14.10.0"
+    "node": "6.11.1"
   },
   "description": "A portfolio site to showcase the great projects i've built. ",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
   "homepage": "https://github.com/dr-van-nostrand/techdegree-project-6#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "module_name": "^1.0.0",
     "pug": "^3.0.0"
   },
   "devDependencies": {
